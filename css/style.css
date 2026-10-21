@@ -1,0 +1,53 @@
+/* All Common Css Start  */
+*{
+    margin: 0;
+    padding: o;
+     font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* All Common Css End  */
+
+/* Header Part Start  */
+#headerpart{
+    padding: 40px 0;
+    background:white
+}
+.headerFlex{
+display: flex; 
+justify-content: space-between;
+align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu ul li a{
+    color: #242836;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerBtn a{
+  border: 1px solid #417D6E;  
+  padding: 10px 18px;
+  border-radius: 500px;
+   color: #242836;
+    font-size: 16px;
+    font-weight: 400;
+  margin-right: 10px;
+}
+.headerBtn a:hover{
+    background: #007456;
+    color: #fff;
+}
+/* Header Part End  */
